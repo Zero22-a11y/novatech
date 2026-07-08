@@ -1,1 +1,2 @@
-# novatech
+# NovaTech
+Site inicial de afiliados.
