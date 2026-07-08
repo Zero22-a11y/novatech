@@ -1,1 +1,0 @@
-body{font-family:Arial;background:#111;color:#fff;margin:0}header{padding:20px;background:#1b1b1b}#produtos{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;padding:20px}.card{background:#222;padding:16px;border-radius:10px}a{background:#0a84ff;color:#fff;padding:8px 12px;text-decoration:none;border-radius:6px;display:inline-block}
