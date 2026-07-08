@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NovaTech - Tecnologia Inteligente</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+body{
+    background:#f4f6f9;
+    color:#222;
+}
+
+
+
+/* MENU */
+
+header{
+
+    background:#111827;
+    color:white;
+    padding:20px 50px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+
+.logo{
+
+    font-size:30px;
+    font-weight:bold;
+
+}
+
+
+.logo span{
+
+    color:#3b82f6;
+
+}
+
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+
+}
+
+
+
+nav a:hover{
+
+    color:#3b82f6;
+
+}
+
+
+
+
+
+/* BANNER */
+
+.banner{
+
+    background:linear-gradient(
+    135deg,
+    #2563eb,
+    #111827
+    );
+
+    color:white;
+
+    text-align:center;
+
+    padding:90px 20px;
+
+}
+
+
+
+.banner h1{
+
+    font-size:45px;
+    margin-bottom:20px;
+
+}
+
+
+.banner p{
+
+    font-size:20px;
+    margin-bottom:30px;
+
+}
+
+
+.botao{
+
+    background:white;
+    color:#2563eb;
+
+    padding:14px 30px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+
+
+
+
+/* PESQUISA */
+
+.pesquisa{
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+
+.pesquisa input{
+
+    width:80%;
+
+    max-width:600px;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    border:1px solid #ccc;
+
+    font-size:16px;
+
+}
+
+
+
+
+
+/* PRODUTOS */
+
+.titulo{
+
+    text-align:center;
+
+    font-size:32px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.produtos{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:25px;
+
+    padding:20px;
+
+}
+
+
+
+.card{
+
+    background:white;
+
+    width:260px;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px #ddd;
+
+    text-align:center;
+
+}
+
+
+
+.card img{
+
+    width:100%;
+
+    height:180px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+}
+
+
+
+.card h3{
+
+    margin:15px 0;
+
+}
+
+
+
+.preco{
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    margin-bottom:15px;
+
+}
+
+
+.card a{
+
+    display:block;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+}
+
+
+
+
+
+/* RODAPÉ */
+
+
+footer{
+
+    margin-top:50px;
+
+    background:#111827;
+
+    color:white;
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+
+
+
+@media(max-width:700px){
+
+header{
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+
+.banner h1{
+
+    font-size:32px;
+
+}
+
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+<header>
+
+
+<div class="logo">
+
+Nova<span>Tech</span>
+
+</div>
+
+
+
+<nav>
+
+<a href="#">Início</a>
+
+<a href="#produtos">Produtos</a>
+
+<a href="#">Ofertas</a>
+
+<a href="#">Contato</a>
+
+</nav>
+
+
+</header>
+
+
+
+
+
+<section class="banner">
+
+
+<h1>
+
+Tecnologia de última geração
+
+</h1>
+
+
+<p>
+
+Os melhores eletrônicos escolhidos para você
+
+</p>
+
+
+<a class="botao" href="#produtos">
+
+Ver produtos
+
+</a>
+
+
+</section>
+
+
+
+
+
+<div class="pesquisa">
+
+
+<input 
+
+id="buscar"
+
+placeholder="🔍 Pesquisar produto..."
+
+>
+
+
+</div>
+
+
+
+
+
+<h2 class="titulo">
+
+Produtos em destaque
+
+</h2>
+
+
+
+<section id="produtos" class="produtos">
+
+
+
+<div class="card">
+
+<img src="https://via.placeholder.com/300">
+
+<h3>
+
+iPhone 15
+
+</h3>
+
+
+<p class="preco">
+
+R$ 4.999
+
+</p>
+
+
+<a href="SEU_LINK_DE_AFILIADO">
+
+Ver oferta
+
+</a>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="https://via.placeholder.com/300">
+
+<h3>
+
+Samsung Galaxy
+
+</h3>
+
+
+<p class="preco">
+
+R$ 2.999
+
+</p>
+
+
+<a href="SEU_LINK_DE_AFILIADO">
+
+Ver oferta
+
+</a>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="https://via.placeholder.com/300">
+
+<h3>
+
+Notebook Gamer
+
+</h3>
+
+
+<p class="preco">
+
+R$ 3.500
+
+</p>
+
+
+<a href="SEU_LINK_DE_AFILIADO">
+
+Ver oferta
+
+</a>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+<footer>
+
+<h2>
+
+NovaTech
+
+</h2>
+
+
+<p>
+
+Tecnologia inteligente para sua vida.
+
+</p>
+
+
+<p>
+
+© 2026 NovaTech
+
+</p>
+
+
+</footer>
+
+
+
+
+
+<script>
+
+
+let busca = document.getElementById("buscar");
+
+
+let produtos = document.querySelectorAll(".card");
+
+
+
+busca.addEventListener("keyup",function(){
+
+
+let texto = busca.value.toLowerCase();
+
+
+
+produtos.forEach(function(produto){
+
+
+let nome = produto.innerText.toLowerCase();
+
+
+
+if(nome.includes(texto)){
+
+produto.style.display="block";
+
+}else{
+
+produto.style.display="none";
+
+}
+
+
+});
+
+
+});
+
+
+</script>
+
+
+
+</body>
+
+</html>
